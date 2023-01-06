@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToppingsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/toppingRecycleNY"
+        android:layout_width="411dp"
+        android:layout_height="668dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <Button
+        android:id="@+id/toppingItemsNY"
+        android:layout_width="177dp"
+        android:layout_height="52dp"
+        android:text="Selected Topping Count"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/applyToppingsNY"
+        android:layout_width="173dp"
+        android:layout_height="52dp"
+        android:text="Apply Toppings"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

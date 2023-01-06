@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RUPizza</string>
+    <string name="order_number" />
+    <string name="cart_empty" />
+    <string name="store_orders" />
+    <string name="order" />
+    <string name="order_total_tax_included" />
+    <string name="zero_price" />
+</resources>

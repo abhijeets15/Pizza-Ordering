@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnClearCart" type="id" />
+    <item name="tvOrderNum" type="id" />
+    <item name="rvPizzas" type="id" />
+    <item name="textView4" type="id" />
+    <item name="tvSubtotal" type="id" />
+    <item name="tvSalesTax" type="id" />
+    <item name="btnPlaceOrder" type="id" />
+    <item name="tvCartTotal" type="id" />
+    <item name="spOrderNum" type="id" />
+</resources>
